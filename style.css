@@ -7,10 +7,11 @@ table{
 li{
     font-size: x-large;
 }
-strong{
+strong {
     font-size: x-large;
-    padding:30px;
+    margin-bottom: 20px;
 }
+
 ul.nav{
     margin-left: 0px;
     padding-left: 0px;
@@ -31,4 +32,66 @@ ul.nav a {
 }
 ul.nav li:last-child a {
     border-bottom: 1px dashed #333;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 25px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    background: #D8E6F3;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+h1{
+    font-size: xx-large;
+}
+.rounded {
+    counter-reset: li;
+    list-style: none;
+    font: 10px "Trebuchet MS", "Lucida Sans";
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #8FD4C1;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
 }

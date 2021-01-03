@@ -14,7 +14,9 @@ strong {
     font-family: "Arial Narrow";
 }
 
-
+h1.menu {
+    text-align: left;
+}
 
 table {
     font-family:"Arial Narrow";

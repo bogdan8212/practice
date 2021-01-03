@@ -1,12 +1,12 @@
 p{
-    font-size: xx-large;
+    font-size: x-large;
+    margin-left:30px;
 }
 table{
     font-size: x-large;
 }
 li{
-    font-size: x-large;
-    font-family: Arial;
+    font-size: large;
 }
 strong {
     font-size: x-large;
@@ -14,32 +14,14 @@ strong {
     font-family: "Arial Narrow";
 }
 
-ul.nav{
-    margin-left: 10px;
-    padding-left: 10px;
-    list-style: none;
-}
 
 
-ul.nav a {
-    display: inline-block;
-    width: 7em;
-    padding:10px;
-    background-color: #f4f4f4;
-    border-top: 1px dashed #333;
-    border-right: 1px dashed #333;
-    border-left: 5px solid #333;
-    text-decoration: none;
-    color: #333;
-}
-ul.nav li:last-child a {
-    border-bottom: 1px dashed #333;
-}
 table {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-family:"Arial Narrow";
     font-size: 25px;
     border-collapse: collapse;
     text-align: center;
+    margin-left:10px;
 }
 th, td:first-child {
     background: #AFCDE7;
@@ -59,11 +41,12 @@ th:first-child, td:first-child {
 }
 h1{
     font-size: xx-large;
+    text-align: center;
 }
 .rounded {
     counter-reset: li;
     list-style: none;
-    font: 10px "Trebuchet MS", "Lucida Sans";
+    font: 10px;
     padding: 0;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
@@ -106,6 +89,7 @@ img{
    margin:30px;
     display:block;
     margin:auto;
+    margin-top:20px;
 }
 body {
     background: url("img/back.jpg ");
@@ -117,4 +101,58 @@ ol{
 b.sugar{
     font-size:30px;
 }
+div.scrollmenu {
+    background-color: #111111;
+    overflow: auto;
+    white-space: nowrap;
 
+}
+div.scrollmenu a {
+    dispaly: inline-block;
+    color:white;
+    text-align:center;
+    padding:14px;
+    text-decoration:none;
+
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+
+}
+}
+
+.sidenav {
+    height:100%;
+    width:200px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:#111;
+    overflow-x:hidden;
+    padding-top:20px;
+}
+.sidenav a{
+    padding:6px 8px 6px 16px;
+    text-decoration:none;
+    font-size: 25px;
+    color:#000;
+    display: block;
+}
+.sidenav a:hover {
+    color: #818181;
+}
+.main {
+     margin-left:160px;
+
+     padding: 0px 10px;
+ }
+@media screen and (max-height:450px) {
+    .sidenav {
+        padding-top:15px;
+    }
+    .sidenav a {
+        font-size:18px;
+    }
+}

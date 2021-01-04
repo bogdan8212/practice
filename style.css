@@ -1,13 +1,16 @@
-p{
+p {
     font-size: x-large;
-    margin-left:30px;
+    margin-left: 30px;
 }
-table{
+
+table {
     font-size: x-large;
 }
-li{
+
+li {
     font-size: large;
 }
+
 strong {
     font-size: x-large;
     margin-bottom: 20px;
@@ -19,39 +22,46 @@ h1.menu {
 }
 
 table {
-    font-family:"Arial Narrow";
+    font-family: "Arial Narrow";
     font-size: 25px;
     border-collapse: collapse;
     text-align: center;
-    margin-left:10px;
+    margin-left: 10px;
 }
+
 th, td:first-child {
     background: #AFCDE7;
     color: white;
     padding: 10px 20px;
 }
+
 th, td {
     border-style: solid;
     border-width: 0 1px 1px 0;
     border-color: white;
 }
+
 td {
     background: #D8E6F3;
 }
+
 th:first-child, td:first-child {
     text-align: left;
 }
-h1{
+
+h1 {
     font-size: xx-large;
     text-align: center;
 }
+
 .rounded {
     counter-reset: li;
     list-style: none;
     font: 10px;
     padding: 0;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
 }
+
 .rounded a {
     position: relative;
     display: block;
@@ -63,8 +73,15 @@ h1{
     border-radius: .3em;
     transition: .3s ease-out;
 }
-.rounded a:hover {background: #E9E4E0;}
-.rounded a:hover:before {transform: rotate(360deg);}
+
+.rounded a:hover {
+    background: #E9E4E0;
+}
+
+.rounded a:hover:before {
+    transform: rotate(360deg);
+}
+
 .rounded a:before {
     content: counter(li);
     counter-increment: li;
@@ -82,79 +99,90 @@ h1{
     border-radius: 2em;
     transition: all .3s ease-out;
 }
-i{
-    font-size:20px;
+
+i {
+    font-size: 20px;
 }
-img{
-    width:30%;
-    height:30%;
-   margin:30px;
-    display:block;
-    margin:auto;
-    margin-top:20px;
+
+img {
+    width: 30%;
+    height: 30%;
+    margin: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 }
+
 body {
     background: url("img/back.jpg ");
-    margin:0;
+    margin: 0;
 }
-ol{
-    margin-left:15px;
+
+ol {
+    margin-left: 15px;
 }
-b.sugar{
-    font-size:30px;
+
+b.sugar {
+    font-size: 30px;
 }
+
 div.scrollmenu {
-    background-color: #111111;
+    background-color: #111;
     overflow: auto;
     white-space: nowrap;
 
 }
+
 div.scrollmenu a {
     dispaly: inline-block;
-    color:white;
-    text-align:center;
-    padding:14px;
-    text-decoration:none;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 
 }
 
 div.scrollmenu a:hover {
-    background-color: #777;
+    background-color: #ffffff;
 
-}
 }
 
 .sidenav {
-    height:100%;
-    width:200px;
-    position:fixed;
-    z-index:1;
-    top:0;
-    left:0;
-    background-color:#111;
-    overflow-x:hidden;
-    padding-top:20px;
+    height: 100%;
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #777;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
-.sidenav a{
-    padding:6px 8px 6px 16px;
-    text-decoration:none;
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
     font-size: 25px;
-    color:#000;
+    color: #000;
     display: block;
 }
-.sidenav a:hover {
-    color: #818181;
-}
-.main {
-     margin-left:160px;
 
-     padding: 0px 10px;
- }
-@media screen and (max-height:450px) {
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+.main {
+    margin-left: 160px;
+
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
     .sidenav {
-        padding-top:15px;
+        padding-top: 15px;
     }
+
     .sidenav a {
-        font-size:18px;
+        font-size: 18px;
     }
 }

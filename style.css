@@ -45,15 +45,11 @@ body{
 
 .content{
     display: flex;
-    height: 100%;
 }
 
 .navigation{
     display: flex;
     flex-direction: column;
-    width: 15%;
-    height: 100%;
-
 }
 
 .navigation_title{
@@ -98,27 +94,24 @@ body{
 }
 
 .content_right{
-    width: 85%;
-    height: 100%;
-    background-color: rgba(252,252,252, 0.5);
+    max-width:800px;
+    padding:14px;
+    margin:14px;
+    border-radius:8px;
+    box-shadow: 1px 1px 15px #00000036;
+    background-color: rgba(252,252,252, 71%);
 }
 p {
-    font-size: x-large;
-    margin-left: 30px;
-}
-
-table {
-    font-size: x-large;
+margin-top:10px;
 }
 
 li {
-    font-size: large;
+
 }
 
 strong {
-    font-size: x-large;
-    margin-bottom: 20px;
     font-family: "Arial Narrow";
+    font-size:20px;
 }
 
 h1.menu {
@@ -126,11 +119,9 @@ h1.menu {
 }
 
 table {
-    font-family: "Arial Narrow";
-    font-size: 25px;
     border-collapse: collapse;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 10px 0;
 }
 
 th, td:first-child {
@@ -143,6 +134,7 @@ th, td {
     border-style: solid;
     border-width: 0 1px 1px 0;
     border-color: white;
+    padding:6px;
 }
 
 td {
@@ -154,7 +146,8 @@ th:first-child, td:first-child {
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 17px;
+    margin:10px;
     text-align: center;
 }
 
@@ -209,12 +202,11 @@ i {
 }
 
 img {
-    width: 30%;
-    height: 30%;
-    margin: 30px;
+    max-width: 200px;
+    border-radius:8px;
     display: block;
     margin: auto;
-    margin-top: 20px;
+    box-shadow: 1px 1px 15px #00000036;
 }
 
 body {
@@ -227,7 +219,7 @@ ol {
 }
 
 b.sugar {
-    font-size: 30px;
+    //*font-size: 30px;*//
 }
 
 div.scrollmenu {
@@ -244,4 +236,7 @@ div.scrollmenu a {
     padding: 14px;
     text-decoration: none;
 
+}
+strong.type {
+    font-size 17px;
 }

@@ -7,8 +7,7 @@
 
 *, *:before, *:after {
     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+    font-size: 12px;
 }
 
 :focus, :active {
@@ -26,7 +25,6 @@ nav, footer, header, aside {
 html, body {
     height: 100%;
     width: 100%;
-    font-size: 100%;
     line-height: 1;
     font-size: 14px;
     -ms-text-size-adjust: 100%;
@@ -135,8 +133,8 @@ body {
     padding: 14px;
     margin: 14px;
     border-radius: 8px;
-    box-shadow: 1px 1px 15px #00000036;
-    background-color: rgba(252, 252, 252, 71%);
+    box-shadow: 1px 1px 15px  #00000036;
+    background-color: rgba(252, 252, 252,71%);
 }
 
 p {
@@ -158,7 +156,7 @@ h1.menu {
 table {
     border-collapse: collapse;
     text-align: center;
-    margin-left: 10px 0;
+    margin-left: 10px;
 }
 
 th, td:first-child {
@@ -191,7 +189,7 @@ h1 {
 .rounded {
     counter-reset: li;
     list-style: none;
-    font: 10px;
+    font-size: 10px;
     padding: 0;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
 }
@@ -268,7 +266,7 @@ div.scrollmenu {
 }
 
 div.scrollmenu a {
-    dispaly: inline-block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px;
@@ -277,5 +275,5 @@ div.scrollmenu a {
 }
 
 strong.type {
-    font-size 17px;
+    font-size: 17px;
 }

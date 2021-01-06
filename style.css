@@ -141,12 +141,8 @@ p {
     margin-top: 10px;
 }
 
-li {
-
-}
-
 strong {
-    font-size: 16px;
+    font-size:12px;
 }
 
 h1.menu {
@@ -276,4 +272,28 @@ div.scrollmenu a {
 
 strong.type {
     font-size: 17px;
+}
+
+footer {
+    display: flex;
+    width: 98%;
+    background: #111;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+ul {
+    padding: 1.25rem;
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.25rem 0.75rem;
+}
+ul a {
+    color: #fff;
+    text-decoration: none;
+}
+ul a:hover {
+    text-decoration: underline;
 }

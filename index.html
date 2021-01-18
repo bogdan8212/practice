@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <canvas id="canvas"></canvas>
+
 </head>
-<body>
+
+<body calss="page">
+<div class="switch">
+    <input type="checkbox">
+    <p>Тёмная тема</p>
+</div>
+<header class="page-header">
+<div class="container">
+    <h1 class="page-title"> Мой сайт</h1>
+</div>
+</header>
 <div class="content">
     <div class="navigation">
         <h2 class="navigation_title">Меню</h2>
-        <a class="navigation_linkf" href="#my positions 1">Начало</a>
+        <a class="navigation_link" href="#my positions 1">Начало</a>
         <a class="navigation_link" href="#my positions 2">Виды углеводов</a>
         <a class="navigation_link" href="#my positions 3">Таблица</a>
         <a class="navigation_link" href="#">Конец</a>
@@ -217,10 +229,11 @@
 </div>
 </body>
 <footer>
-    <ul>
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Контакты</a></li>
-    </ul>
+    <p class="footer1">
+    <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+    </p>
 </footer>
+<script src="scroll.js"></script>
 </html>

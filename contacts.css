@@ -1,0 +1,33 @@
+form.new_form {
+    width: 600px;
+    border: 1px solid #cecece;
+    display: block;
+    height: 220px;
+    padding: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
+    margin: auto;
+}
+form.new_form {
+    width: 600px;
+    border: 1px solid black;
+    display: block;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+}
+p.up {
+    margin-top:10px;
+    font-size:30px;
+    text-align: center;
+    color:rgba(225,100,100) ;
+
+body{
+    background: url("img/back2.jpg ");
+}
+#success_message{ display: none;}
